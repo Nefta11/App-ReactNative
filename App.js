@@ -4,7 +4,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TouchableWithoutFeedback onPress={() => Alert.alert('Hemos tocado el texto siuu')}>
-        <Text>Hola Mundo Siuu</Text>
+        <Text>Hola Mundo Desde React Native</Text>
       </TouchableWithoutFeedback>
       <StatusBar style="auto" />
     </View>
@@ -14,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#d29bfd ',
     alignItems: 'center',
     justifyContent: 'center',
   },
