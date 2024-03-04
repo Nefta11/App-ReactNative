@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Alert, TouchableWithoutFeedback, StatusBar } fr
 export default function App() {
   return (
     <View style={styles.container}>
-      <TouchableWithoutFeedback onPress={() => Alert.alert('Hemos tocado el texto siuu')}>
+      <TouchableWithoutFeedback onPress={() => Alert.alert('Hemos tocado el texto de bienvenida')}>
         <Text>Hola Mundo Desde React Native siuu</Text>
       </TouchableWithoutFeedback>
       <StatusBar style="auto" />
