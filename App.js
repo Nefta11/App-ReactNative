@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View, Alert, TouchableWithoutFeedback, StatusBar } from 'react-native';
+
 //comando para iniciar un proyecto en react native: npx create-expo-app "nombre del proyecto"
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -10,6 +12,7 @@ export default function App() {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
